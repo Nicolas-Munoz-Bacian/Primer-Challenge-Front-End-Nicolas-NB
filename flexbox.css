@@ -1,0 +1,88 @@
+:root {
+    --color-de-fondo: #F5F5F5;
+    --color-de-fondo-menu: #ffffff;
+    --color-de-link: #000000;
+    --color-primario:#ffff;
+    --color-secundario:#f02828;
+    --color-terciario:#f5edd6;
+    --color-cuarto:#0000;
+    --color-quinto:#a9ea65;
+    --color-sexto:#b7dde2;
+    --color-septimo:#012e67;
+    --imagen-de-perfil: url(img/Mi foto.jpeg);
+    --fuente-calibri:'calibri';
+    --fuente-calibri-negrita:'calibri', 'bold';
+}
+
+/* ------------------------------ Sección Menú -------------------------------*/
+
+
+/* Ajuste para pantallas pequeñas */
+
+
+/* ------------------------------ Sección Presentación ------------------------------*/
+ 
+
+/* ------------------------------ Sección sobre mí ----------------------------------*/
+
+
+/*------------------------------ Sección de Habilidades ------------------------------*/
+
+
+/*------------------------------ Sección de Aficiones --------------------------------*/
+
+/*------------------------------ Sección de Formación académica --------------------------------*/
+
+/*------------------------------ Sección de Proyectos --------------------------------*/
+
+
+/*------------------------------ Sección de Contacto ---------------------------------*/
+
+/* Estilos generales */
+
+
+/*------------------------------ Sección Pie de página (FOOTER) ---------------------------------*/
+
+
+/* ------------------------------ Responsividad ---------------------------------------*/
+
+/* Tablets y pantallas más grandes */
+@media (min-width: 768px) {
+    .cabecera {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .cabecera__logo {
+        max-width: 80px;
+    }
+
+    .cabecera__titulo {
+        font-size: 1.5rem;
+    }
+
+    .navegacion__lista {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1rem;
+    }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1024px) {
+    /* Aquí puedes ajustar aún más el diseño para pantallas grandes */
+    .cabecera__titulo {
+        font-size: 1.8rem;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1.1rem;
+    }
+}

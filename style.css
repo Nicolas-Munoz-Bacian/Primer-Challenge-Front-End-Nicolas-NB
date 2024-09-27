@@ -472,7 +472,7 @@ a {
 
 /*------------------------------ Sección de Aficiones --------------------------------*/
 .presentacion__aficiones{
-    background: var(--color-octavo);
+    background: none
 }
 
 .aficiones__titulo{
@@ -500,7 +500,7 @@ a {
 }
 
 .aficiones__icono{
-    width: 30%; /* Ajusta el ancho de la imagen */
+    width: 30%;
     height: auto;
     justify-content: space-around;
     align-items: center;
@@ -644,8 +644,22 @@ a {
 .presentación_contenido_central{
     color: var(--color-primario);
     display: flex;
-    flex-direction:column;
-    align-content: center;
+}
+
+.laboral__contenedor{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_CircularTec{
+    width: 40%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    object-fit: contain;
 }
 
 /*------------------------------ Sección de Proyectos --------------------------------*/
