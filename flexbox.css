@@ -4,11 +4,13 @@
     --color-de-link: #000000;
     --color-primario:#ffff;
     --color-secundario:#f02828;
-    --color-terciario:#f5edd6;
+    --color-terciario:#4c5e5f;
     --color-cuarto:#0000;
     --color-quinto:#a9ea65;
-    --color-sexto:#b7dde2;
-    --color-septimo:#012e67;
+    --color-sexto:#00fbff;
+    --color-octavo:#3cd0d2;
+    --color-septimo:#0001cb;
+    --color-dorado:#d79d28;
     --imagen-de-perfil: url(img/Mi foto.jpeg);
     --fuente-calibri:'calibri';
     --fuente-calibri-negrita:'calibri', 'bold';
