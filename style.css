@@ -239,34 +239,61 @@ a {
     padding: none;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.text{
+    margin: 10px 20px 10px 20px;
+    text-align:justify;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: var(--fuente-calibri);
+}
+
+.Contenido_nosotros {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.contenedor_nosotros_1{
+    display: flex;
+    margin: 0rem 0rem 1rem 0rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .formacion__lista{
-    padding: 10px;
+    display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    margin: 0 1rem;
 }
 
 .formacion__titulo{
+    color: var(--color-primario);
     display: flex;
     font-size: 150%;
     margin: 5px 10px;
 }
 
 .formacion__icono{
-    width: 80%;
-    height: 100px;
+    width: 125px;
+    height: auto;
     object-fit: contain;
 }
 
 .formación__tipo{
- justify-content: center;
- align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .formacion__detalle{
-flex-direction: column;
+    flex-direction: column;
 }
 
 .formacion__elemento{
@@ -345,12 +372,6 @@ flex-direction: column;
 }
 
 .text_contenido_1 {
-    justify-content: center;
-    display: inline-block;
-    flex-direction: column;
-    flex-wrap: wrap-reverse;
-    align-items: flex-start;
-    background-color: var(--color-octavo);
     border-radius: 20px;
     width: 30%;
     height: auto;
@@ -401,10 +422,8 @@ flex-direction: column;
 /*------------------------------ Sección de Habilidades ------------------------------*/
 
 .presentacion__contenedor__habilidades {
-    padding: none;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .habilidades__titulo{
@@ -645,15 +664,8 @@ flex-direction: column;
     color: var(--color-primario);
 }
 
-.gallery{
-}
-
-.gallery-container {
-
-  }
-
-
 div.gallery {
+    width: 100%;
     border: 2px solid var(--color-primario);
   }
   
@@ -684,12 +696,14 @@ div.gallery {
   }
   
   .responsive {
+    justify-content: space-between;
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
+    margin-left: 10px;
+    width: 23%;
   }
   
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 768px) {
     .responsive {
       width: 49.99999%;
       margin: 6px 0;
@@ -788,6 +802,14 @@ div.gallery {
     object-fit: contain;
 }
 
+.proyectos_list{
+    object-fit: contain;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
   /**BOTÓN A REPOSITORIO**/
 
 .Contenido_de_lado {
@@ -801,7 +823,7 @@ div.gallery {
 }
 
 .encriptador_de_texto_imagen{
-    width: 80%;
+    width: 75%;
     height: auto;
     object-fit: contain;
     flex-wrap: wrap;
@@ -974,7 +996,7 @@ div.gallery {
     padding: 10px 10px;
     margin: 0 10px;
     font-size: 80%;
-    border: 2px solid var(--color-sexto);
+    border: 4px solid var(--color-sexto);
     margin-bottom: 20px;
     margin-left: 20px;
     border-radius: 8px;
