@@ -783,13 +783,13 @@ div.gallery {
 .btn_Repositorio{
     background-color: var(--color-septimo);
     position: relative;
-    width: 100%;
+    width: 80%;
     font-family: var(--fuente-calibri);
     color: var(--color-primario);
     border: none;
     border-radius: 10px;
     font-size: 100%;
-    padding: 6px;
+    padding: 4px;
     cursor: pointer;
     justify-content: center;
     flex-wrap: wrap;
@@ -805,11 +805,11 @@ div.gallery {
     border: none;
     border-radius: 10px;
     font-size: 100%;
-    padding: 6px;
+    padding: 4px;
     cursor: pointer;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 8px 1rem;
+    margin: 8px 10px;
 }
 
 
