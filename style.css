@@ -25,7 +25,7 @@ body {
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen */
     background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
-    background-color: #4c5e5f;
+    background-color: var(--color-terciario);
     font-family: 'Raleway', sans-serif;
     margin: 0;
     box-sizing: border-box;
@@ -63,17 +63,8 @@ a {
     top: 0;
 }
 
-.cabecera__iconos__item{
-    width: 100px;
-    height: auto;
-    color: var(--color-primario);
-}
 /* Ajuste para pantallas pequeñas */
 
-@font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-Regular.ttf') format('truetype');
-  }
 
 .cabecera__logo {
     max-width: 60px; 
@@ -134,10 +125,11 @@ a {
 }
 
 .cabecera__avatar {
-    background-image: url(img/icons/Avatar.png);
+    background-image: url(img/icons/Mi\ avatar.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
+    width: 10px;
 }
 
 /* ------------------------------ Sección Presentación ------------------------------*/
@@ -266,13 +258,13 @@ a {
     font-family: var(--fuente-calibri);
 }
 
-.Contenido_nosotros {
+.contenido_formacion{
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.contenedor_nosotros_1{
+.contenedor_formacion_academica{
     display: flex;
     margin: 0rem 0rem 1rem 0rem;
     justify-content: center;
@@ -327,110 +319,10 @@ a {
     align-items:center;
 }
 
-.presentación_contenido_título{
-    font-size: 40px;
-    font-family: var(--fuente-Sicret-Mono-PERSONAL);
-    color: var(--color-secundario);
-}
-
-.presentación_contenido_texto{
-    font-size: 20px;
-    font-family: var(--fuente-calibri-negrita);
-    color: var(--color-cuarto);
-    flex-direction: column;
-    gap: 40px;
-}
-
-.Párrafo_contenido{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--fuente-calibri);
-    text-align: justify;
-    margin: 1rem 0rem 0rem 0rem;
-}
-
-.Párrafo_contenido_2{
-    display: flex;
-    justify-content:center;
-    align-items:initial;
-    align-content: center;
-    font-family: var(--fuente-calibri);
-    text-align: justify;
-    margin: 1rem 0rem 2rem 0rem;
-}
-
 .text{
     display: flex;
-    margin: 10px 20px 10px 20px;
     justify-content: center;
     font-family: var(--fuente-calibri);
-}
-
-.Contenido_nosotros {
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-}
-
-.contenedor_nosotros_1{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contenedor_nosotros_2{
-    display: flex;
-    margin: 2rem 0rem 2rem 0rem;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.text_contenido_1 {
-    border-radius: 20px;
-    width: 30%;
-    height: auto;
-    font-size: 100%;
-}
-
-.text_contenido_2{
-    justify-content: center;
-    display: inline-block;
-    flex-direction: column-reverse;
-    flex-wrap: wrap-reverse;
-    align-items: flex-start;
-    background-color: var(--color-octavo);
-    border-radius: 20px;
-    width: 30%;
-    height: auto;
-    font-size: 100%;
-}
-
-.text_contenido_3{
-    justify-content: center;
-    display: inline-block;
-    flex-wrap: wrap-reverse;
-    align-items: flex-start;
-    background-color: var(--color-terciario);
-    border-radius: 20px;
-    width: 30%;
-    height: auto;
-    font-size: 80%;
-    margin: 1rem 0rem 1rem 1rem;
-}
-
-.text_contenido_4{
-    display: flex;
-    border-color: 6px 4px var(--color-sexto);
-    justify-content: center;
-    align-items: center;   
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    border-radius: 20px;
-    width: 80%;
-    height: auto;
-    font-size: 80%;
-    margin: auto
 }
 
 /*------------------------------ Sección de Habilidades ------------------------------*/
@@ -863,7 +755,6 @@ div.gallery {
 }
 
 .proyectos_list{
-    object-fit: contain;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -1207,34 +1098,6 @@ div.gallery {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-}
-
-.Contenido_de_lado {
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
-    align-items: center;
-    font-family: var(--fuente-calibri);
-    margin:  5px 5px;
-    position: relative;
-    
-}
-
-.contenido {
-    display: flex;
-    justify-content: center;
-    margin-left: 10px;
-}
-
-.imagen {
-    width: 50%;
-    height: 320px;
-    margin-right: 10%;
-    border-radius: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    margin:  10px 0px;
-    flex-direction: column;
 }
 /* ------------------------------ Responsividad ---------------------------------------*/
 
