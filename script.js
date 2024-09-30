@@ -71,15 +71,3 @@ const botonVolver = document.getElementById('volver-cabecera');
 botonVolver.addEventListener('click', () => {
     document.querySelector('.cabecera').scrollIntoView({ behavior: 'smooth' });
 });
-
-
-/*--- CLICK PARA VER MENÚ VERTICAL---*/
-
-const botonesVer = document.querySelectorAll('.btn_Ver');
-
-botonesVer.forEach(boton => {
-  boton.addEventListener('click', () => {
-    const menuVer = boton.closest('.menú_ver');
-    menuVer.style.display = 'flex'; // Mostrar el menú
-  });
-});

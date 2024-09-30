@@ -266,7 +266,6 @@ a {
 .contenido_formacion{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .contenedor_formacion_academica{
@@ -291,6 +290,7 @@ a {
 }
 
 .formación__tipo{
+    margin: 10px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -970,8 +970,7 @@ div.gallery {
     color: var(--color-terciario);
     border-radius: 10px;
     cursor: pointer;
-    margin: 10px 0;
-    float: right;
+    justify-content: center;
 }
 
 .Contenido_central_volver_arriba{
@@ -979,12 +978,6 @@ div.gallery {
     display: flex;
     clear: both;
 }
-
-@media (max-width: 768px) { /* Ajusta el valor de max-width según tus necesidades */
-    .btn_volver_arriba {
-      display: none;
-    }
-  }
 
 /*------------------------------ FOOTER (RODAPIE) ---------------------------------*/
 
