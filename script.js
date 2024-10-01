@@ -1,4 +1,4 @@
-//La validación del formulário con javascript es considerada un desafío extra, no es obligatório realizar esta validación para realizar su entrega
+
 
 const form = document.getElementById('contact-form');
 const nameInput = document.getElementById('name');
